@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "practical_plushies_mobs:block/shulker_plushie",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "practical_plushies_mobs:block/shulker_plushie"
+    },
+    "facing=south": {
+      "model": "practical_plushies_mobs:block/shulker_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "practical_plushies_mobs:block/shulker_plushie",
+      "y": 270
+    }
+  }
+}

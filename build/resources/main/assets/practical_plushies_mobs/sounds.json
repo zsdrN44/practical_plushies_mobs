@@ -1,0 +1,8 @@
+{
+  "plushie_sound": {
+    "subtitle": "sound.block_rightclick",
+    "sounds": [
+      "practical_plushies_mobs:plushie_sound"
+    ]
+  }
+}

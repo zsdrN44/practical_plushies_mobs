@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "practical_plushies_mobs",
+  "version": "1.0.1",
+  "name": "Practical Plushies - Mobs!",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/practical_plushies_mobs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.practical_plushies_mobs.PracticalPlushiesMobs"
+    ],
+    "client": [
+      "com.practical_plushies_mobs.PracticalPlushiesMobsClient"
+    ],
+    "fabric-datagen": [
+      "com.practical_plushies_mobs.datagen.DataGeneration"
+    ]
+  },
+  "mixins": [
+    "practical_plushies_mobs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "necronomicon": ">=1.2.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
